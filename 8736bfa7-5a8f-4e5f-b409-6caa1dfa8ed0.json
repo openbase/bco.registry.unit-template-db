@@ -15,17 +15,20 @@
     {
       "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
       "service_type": "TEMPERATURE_STATE_SERVICE",
-      "pattern": "PROVIDER"
+      "pattern": "PROVIDER",
+      "meta_config": {}
     },
     {
       "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
       "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
-      "pattern": "PROVIDER"
+      "pattern": "PROVIDER",
+      "meta_config": {}
     },
     {
       "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
       "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
-      "pattern": "OPERATION"
+      "pattern": "OPERATION",
+      "meta_config": {}
     }
   ],
   "meta_config": {
@@ -33,6 +36,10 @@
       {
         "key": "PHYSICAL_PROPERTIES",
         "value": "TEMPERATURE"
+      },
+      {
+        "key": "HASS_ENTITY_TYPE",
+        "value": "climate"
       }
     ]
   }

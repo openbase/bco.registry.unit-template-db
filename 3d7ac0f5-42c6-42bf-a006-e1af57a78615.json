@@ -28,6 +28,10 @@
       {
         "key": "PHYSICAL_PROPERTIES",
         "value": "TEMPERATURE"
+      },
+      {
+        "key": "HASS_ENTITY_TYPE",
+        "value": "sensor"
       }
     ]
   }
