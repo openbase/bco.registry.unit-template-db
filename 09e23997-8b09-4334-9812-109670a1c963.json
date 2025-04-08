@@ -18,5 +18,12 @@
       "pattern": "PROVIDER"
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "HASS_ENTITY_TYPE",
+        "value": "event"
+      }
+    ]
+  }
 }
