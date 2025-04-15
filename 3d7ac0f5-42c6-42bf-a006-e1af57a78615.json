@@ -32,6 +32,10 @@
       {
         "key": "HASS_ENTITY_TYPE",
         "value": "sensor"
+      },
+      {
+        "key": "HASS_ENTITY_DEVICE_CLASS",
+        "value": "temperature"
       }
     ]
   }

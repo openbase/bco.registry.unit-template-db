@@ -15,7 +15,8 @@
     {
       "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
       "service_type": "BATTERY_STATE_SERVICE",
-      "pattern": "PROVIDER"
+      "pattern": "PROVIDER",
+      "meta_config": {}
     }
   ],
   "meta_config": {
@@ -23,6 +24,10 @@
       {
         "key": "HASS_ENTITY_TYPE",
         "value": "sensor"
+      },
+      {
+        "key": "HASS_ENTITY_DEVICE_CLASS",
+        "value": "battery"
       }
     ]
   }

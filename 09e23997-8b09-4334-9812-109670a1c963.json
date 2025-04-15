@@ -23,6 +23,10 @@
       {
         "key": "HASS_ENTITY_TYPE",
         "value": "event"
+      },
+      {
+        "key": "HASS_ENTITY_DEVICE_CLASS",
+        "value": "button"
       }
     ]
   }
